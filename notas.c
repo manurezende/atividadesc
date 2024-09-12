@@ -19,11 +19,11 @@
 
         if (rs < 6)
         {
-            printf("infelizmente você foi reprovado! Sua nota é %f\n",rs);
+            printf("infelizmente você foi reprovado! Sua nota é %.2f\n",rs);
         }
         else
         {
-            printf("parabens você foi aprovado e passou de ano! Sua nota é %f\n",rs);
+            printf("parabens você foi aprovado e passou de ano! Sua nota é %.2f\n",rs);
         }
 
         return 0;
