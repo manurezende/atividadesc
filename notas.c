@@ -15,15 +15,15 @@
         printf("qual foi a nota do aluno no quarto bimestre?\n");
             scanf("%f" ,&nota4);
 
-        rs = (nota1 + nota2 + nota3 + nota4) / 2;
+        rs = (nota1 + nota2 + nota3 + nota4) / 4;
 
         if (rs < 6)
         {
-            printf("infelizmente você foi reprovado!");
+            printf("infelizmente você foi reprovado! Sua nota é %f\n",rs);
         }
         else
         {
-            printf("parabens você foi aprovado e passou de ano!");
+            printf("parabens você foi aprovado e passou de ano! Sua nota é %f\n",rs);
         }
 
         return 0;
