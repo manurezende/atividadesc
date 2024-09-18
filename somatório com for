@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(void)
+{
+    int soma = 0;           // inicializa a soma
+    int numero;             // oque vai ser adicionado a soma
+
+
+    for (numero = 2; numero <= 100; numero += 2)
+    {
+        soma += numero;
+    }
+    printf("soma é %d\n",soma);
+    return 0;
+}
