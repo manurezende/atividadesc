@@ -1,0 +1,41 @@
+
+#include<stdio.h>
+int main (void)
+{
+    int aprovados = 0;     //quantidade de aprovações
+    int reprovados = 0;    //quantidade de reprovações
+    int aluno = 1;        
+    int resultado;         // resultado de um exame
+
+
+    while (aluno <= 10)
+    {
+        printf("forneça resultado (1=aprovado, 2=reprovado)");
+        scanf("%d", &resultado);
+   
+    if (resultado == 1)
+    {
+        aprovados = aprovados + 1;
+    }
+    else
+    { // inicio do else
+        reprovados = reprovados + 1;
+    } //fim do else
+
+
+    aluno = aluno + 1;
+
+
+    }
+    printf("aprovados %d\n", aprovados);
+    printf("reprovados %d\n", reprovados);
+
+
+    if (aprovados > 8)
+    {
+        printf("bonus ao instrutor!\n");
+    }
+    return 0;
+}
+
+
